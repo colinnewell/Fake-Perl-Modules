@@ -1,0 +1,10 @@
+name: Mooooooose
+abstract: Simplest possible thing
+x_authority: cpan:AAARGH
+X_Module_Faker:
+  cpan_author: AAARGH
+  append:
+    - file: t/test.t
+      content: |
+        use Test::More;
+version: '0.02'

@@ -1,0 +1,34 @@
+---
+abstract: 'A wrapper around the Jenkins Hack'
+author:
+  - 'Blah <mdksma@example.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  Test::Most: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.12'
+license: 
+  - perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Jenkins-Hack
+no_index:
+  directory:
+    - example
+    - inc
+    - t
+requires:
+  File::ShareDir: 0
+  JSON: 0
+  MIME::Base64: 0
+  Moo: 0
+  REST::Client: 0
+  Types::Standard: 0
+  URI: 0
+version: '0.11'
+X_Module_Faker:
+  cpan_author: OOOPPP

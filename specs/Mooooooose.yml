@@ -1,0 +1,5 @@
+name: Mooooooose
+abstract: Simplest possible thing
+x_authority: cpan:AAARGH
+X_Module_Faker:
+  cpan_author: AAARGH
